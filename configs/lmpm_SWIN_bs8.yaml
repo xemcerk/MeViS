@@ -64,7 +64,7 @@ DATASETS:
   TRAIN: ("mevis_train",)
   TEST: ("mevis_val",)
 SOLVER:
-  IMS_PER_BATCH: 8
+  IMS_PER_BATCH: 1 # must adapt to the number of available gpus
   BASE_LR: 0.00005
   STEPS: (40000, 85000)
   MAX_ITER: 100000

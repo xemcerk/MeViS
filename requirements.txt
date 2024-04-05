@@ -6,3 +6,5 @@ h5py
 submitit
 scikit-image
 setuptools==59.4.0
+einops
+transformers

@@ -3,3 +3,4 @@ python train_net_lmpm.py \
     --num-gpus 1 --dist-url auto \
     MODEL.WEIGHTS ckpt/model_final_86143f.pkl \
     OUTPUT_DIR output/debug_run
+python tools/eval_mevis.py --mevis_pred_path output/debug_run/inference
